@@ -12,6 +12,12 @@
     border-radius: 15px;
 }
 
+.carousel .carousel-item {
+    height:500px !important;
+    border-radius: 15px;
+}
+    
+
 /* 
 .parallax-container {
     height: 400px;
