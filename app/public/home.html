@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FriendFinder</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="friends2.jpg">
+        </div>
+    </div>
+    <div class="section grey lighten-1">
+        <div class="container" id="home-bx">
+            <div class="row">
+                <div class="col s1"></div>
+                <div class="col s10">
+                    <h3>
+                        <i class="medium material-icons left">people</i> Friend Finder</h3>
+                    <hr>
+                    <h4> Answer a few basic questions.</h4>
+                    <h4> Then find the friend with the greatest compatibility!</h4>
+                    <br>
+                    <a href="/survey" class="waves-effect waves-light btn grey lighten-1">
+                        <i class="material-icons left"></i>Go to survey</a>
+                    <br>
+                </div>
+                <div class="col s1"></div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="friends1.jpg">
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>
+                <a href="/api/friends">API friends List</a> |
+                <a href="https://github.com/afhaque/HotRestaurant">GitHub Repo</a>
+            </p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.parallax').parallax();
+        });
+    </script>
+
+</body>
+
+</html>

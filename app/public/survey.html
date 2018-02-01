@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FriendFinder</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h4>Survey Questions</h4>
+        <hr>
+        <div class="row">
+            <form class="col s12">
+                <h5>
+                    <b>About You</b>
+                </h5>
+                <div class="input-field">
+                    <input id="name" type="text">
+                    <label for="name"> Name (Required)</label>
+                </div>
+                <div class="input-field">
+                    <input id="photo" type="text">
+                    <label for="photo"> Link to Photo Image (Required)</label>
+                </div>
+            </form>
+        </div>
+        <h5 style="text-align: center;">
+            <b>1 (Strongly Disagree) and 5 (strongly aAgree)</b>
+        </h5>
+        <br>
+        <div class="row">
+            <div class="col s6">
+                <ul class="collection">
+                    <li class="collection-item">
+                        <h4>
+                            <b>Question 1</b>
+                        </h4>
+                        <p>Your mind is always buzzing with unexplored ideas and plans.</p>
+                        <form class="range-field">
+                            <input type="range" name="amountRange" id="test5" min="1" max="5" value="1" oninput="this.form.amountInput.value=this.value"
+                            />
+                            <input style="color: rgb(50, 151, 218);" name="amountInput" id="q1" min="1" max="5" value="1" title="1 (Strongly Disagree) through 5 (Strongly Agree)"
+                                oninput="this.form.amountRange.value=this.value" />
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            <div class="col s6">
+                <ul class="collection">
+                    <li class="collection-item">
+                        <h4>
+                            <b>Question 2</b>
+                        </h4>
+                        <p>Generally speaking, you rely more on your experience than your imagination</p>
+                        <form class="range-field">
+                            <input type="range" name="amountRange" id="test5" min="1" max="5" value="1" oninput="this.form.amountInput.value=this.value"
+                            />
+                            <input style="color: rgb(50, 151, 218);" name="amountInput" id="q2" min="1" max="5" value="1" title="1 (Strongly Disagree) through 5 (Strongly Agree)"
+                                oninput="this.form.amountRange.value=this.value" />
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s6">
+                <ul class="collection">
+                    <li class="collection-item">
+                        <h4>
+                            <b>Question 3</b>
+                        </h4>
+                        <p>You find it easy to stay relaxed and focused even when there is some pressure.</p>
+                        <form class="range-field">
+                            <input type="range" name="amountRange" id="test5" min="1" max="5" value="1" oninput="this.form.amountInput.value=this.value"
+                            />
+                            <input style="color: rgb(50, 151, 218);" name="amountInput" id="q3" min="1" max="5" value="1" title="1 (Strongly Disagree) through 5 (Strongly Agree)"
+                                oninput="this.form.amountRange.value=this.value" />
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            <div class="col s6">
+                <ul class="collection">
+                    <li class="collection-item">
+                        <h4>
+                            <b>Question 4</b>
+                        </h4>
+                        <p>You rarely do something just out of sheer curiosity.</p>
+                        <br>
+                        <form class="range-field">
+                            <input type="range" name="amountRange" id="test5" min="1" max="5" value="1" oninput="this.form.amountInput.value=this.value"
+                            />
+                            <input style="color: rgb(50, 151, 218);" name="amountInput" id="q4" min="1" max="5" value="1" title="1 (Strongly Disagree) through 5 (Strongly Agree)"
+                                oninput="this.form.amountRange.value=this.value" />
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s6">
+                <ul class="collection">
+                    <li class="collection-item">
+                        <h4>
+                            <b>Question 5</b>
+                        </h4>
+                        <p>People can rarely upset you.</p>
+                        <form class="range-field">
+                            <input type="range" name="amountRange" id="test5" min="1" max="5" value="1" oninput="this.form.amountInput.value=this.value"
+                            />
+                            <input style="color: rgb(50, 151, 218);" name="amountInput" id="q5" min="1" max="5" value="1" title="1 (Strongly Disagree) through 5 (Strongly Agree)"
+                                oninput="this.form.amountRange.value=this.value" />
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            <div class="col s6">
+                <ul class="collection">
+                    <li class="collection-item">
+                        <h4>
+                            <b>Question 6</b>
+                        </h4>
+                        <p>It is often difficult for you to relate to other people’s feelings.</p>
+                        <form class="range-field">
+                            <input type="range" name="amountRange" id="test5" min="1" max="5" value="1" oninput="this.form.amountInput.value=this.value"
+                            />
+                            <input style="color: rgb(50, 151, 218);" name="amountInput" id="q6" min="1" max="5" value="1" title="1 (Strongly Disagree) through 5 (Strongly Agree)"
+                                oninput="this.form.amountRange.value=this.value" />
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s6">
+                <ul class="collection">
+                    <li class="collection-item">
+                        <h4>
+                            <b>Question 7</b>
+                        </h4>
+                        <p>In a discussion, truth should be more important than people’s sensitivities.</p>
+                        <form class="range-field">
+                            <input type="range" name="amountRange" id="test5" min="1" max="5" value="1" oninput="this.form.amountInput.value=this.value"
+                            />
+                            <input style="color: rgb(50, 151, 218);" name="amountInput" id="q7" min="1" max="5" value="1" title="1 (Strongly Disagree) through 5 (Strongly Agree)"
+                                oninput="this.form.amountRange.value=this.value" />
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            <div class="col s6">
+                <ul class="collection">
+                    <li class="collection-item">
+                        <h4>
+                            <b>Question 8</b>
+                        </h4>
+                        <p>You rarely get carried away by fantasies and ideas.</p>
+                        <form class="range-field">
+                            <input type="range" name="amountRange" id="test5" min="1" max="5" value="1" oninput="this.form.amountInput.value=this.value"
+                            />
+                            <input style="color: rgb(50, 151, 218);" name="amountInput" id="q8" min="1" max="5" value="1" title="1 (Strongly Disagree) through 5 (Strongly Agree)"
+                                oninput="this.form.amountRange.value=this.value" />
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s6">
+                <ul class="collection">
+                    <li class="collection-item">
+                        <h4>
+                            <b>Question 9</b>
+                        </h4>
+                        <p>You think that everyone’s views should be respected regardless of whether they are supported by facts
+                            or not.
+                        </p>
+                        <form class="range-field">
+                            <input type="range" name="amountRange" id="test5" min="1" max="5" value="1" oninput="this.form.amountInput.value=this.value"
+                            />
+                            <input style="color: rgb(50, 151, 218);" name="amountInput" id="q9" min="1" max="5" value="1" title="1 (Strongly Disagree) through 5 (Strongly Agree)"
+                                oninput="this.form.amountRange.value=this.value" />
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            <div class="col s6">
+                <ul class="collection">
+                    <li class="collection-item">
+                        <h4>
+                            <b>Question 10</b>
+                        </h4>
+                        <p>You feel more energetic after spending time with a group of people.</p>
+                        <form class="range-field">
+                            <input type="range" name="amountRange" id="test5" min="1" max="5" value="1" oninput="this.form.amountInput.value=this.value"
+                            />
+                            <input style="color: rgb(50, 151, 218);" name="amountInput" id="q10" min="1" max="5" value="1" pattern="[1-5]{1}" title="1 (Strongly Disagree) through 5 (Strongly Agree)"
+                                oninput="this.form.amountRange.value=this.value" />
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+
+        <button class="btn waves-effect waves-light submit modal-trigger" type="submit" href="#modal1" name="action">Submit
+            <i class="material-icons right">send</i>
+        </button>
+        <hr>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <a href="../api/friends">API Friends</a> |
+                <a href="https://github.com/RaMbo8315/friend-finder">GitHub Repo</a>
+            </p>
+        </div>
+    </footer>
+
+    <div id="modal1" class="modal">
+        <div class="modal-content container">
+            <h4>
+                <b>Best Match</b>
+            </h4>
+            <hr>
+            <div class="results"></div>
+        </div>
+        <div class="modal-footer">
+            <button href="#!" class="btn modal-action modal-close waves-effect waves-light">
+                close
+            </button>
+        </div>
+    </div>
+
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type="text/javascript">
+        var valid = false;
+        var quest = [];
+        var match = [];
+        var name = "";
+        var photo = "";
+        var newFriend = "";
+        $(".model-close")
+        $(".submit").on("click", (event) => {
+            event.preventDefault();
+            name = $(`#name`).val().trim();
+            photo = $(`#photo`).val().trim();
+            quest.push(parseInt(document.getElementById(`q1`).value));
+            quest.push(parseInt(document.getElementById(`q2`).value));
+            quest.push(parseInt(document.getElementById(`q3`).value));
+            quest.push(parseInt(document.getElementById(`q4`).value));
+            quest.push(parseInt(document.getElementById(`q5`).value));
+            quest.push(parseInt(document.getElementById(`q6`).value));
+            quest.push(parseInt(document.getElementById(`q7`).value));
+            quest.push(parseInt(document.getElementById(`q8`).value));
+            quest.push(parseInt(document.getElementById(`q9`).value));
+            quest.push(parseInt(document.getElementById(`q10`).value));
+            validateAndAdd(quest, name, photo);
+        })
+
+        validateAndAdd = (q, n, p) => {
+            for (var i = 0; i < q.length; i++) {
+                if (isNaN(q[i]) || q[i] < 1 || q[i] > 5 || n === "" || p === "") {
+                    quest = [];
+                    name = "";
+                    photo = "";
+                } else {
+                    valid = true;
+                }
+            }
+            if (valid === true) {
+                Materialize.toast('Your match is being located!', 2000)
+                newFriend = {
+                    name: name,
+                    photo: photo,
+                    scores: quest
+                }
+                quest = [];
+                name = "";
+                photo = "";
+                $.post("/api/friends", newFriend)
+                    .then((data) => {
+                        console.log(data)
+                        match = data;
+                        console.log(match)
+
+                        $(".results").append(`<h2>${match.name}</h2>`)
+                        $(".results").append(`<img src="${match.photo}">`)
+                        $(".results").append(`<hr>`)
+                    });
+                $('.modal').modal()
+                $(".results").empty()
+                console.log(match)
+            } else {
+                Materialize.toast('Please complete the entire Survey!', 2000)
+            }
+        };
+        $('.modal').modal({
+            dismissible: false, 
+            opacity: .5,
+            inDuration: 3000, 
+            outDuration: 2000, 
+            startingTop: '4%', 
+            endingTop: '10%', 
+        })
+    </script>
+</body>
+
+</html>
